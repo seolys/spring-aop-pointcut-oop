@@ -1,8 +1,6 @@
 package seol.study.pointcut;
 
-import org.springframework.stereotype.Component;
 
-@Component
 public class InterfaceImpl extends AbstractClass implements Interface {
 
 	@Override
