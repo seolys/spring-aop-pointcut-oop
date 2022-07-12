@@ -1,0 +1,15 @@
+# idea
+.idea
+.DS_Store
+# compile file
+out
+### Gradle ###
+.gradle
+build/*
+!.gradle/gradle.properties
+!.gradle/gradle.dev.properties
+!.gradle/gradle.stage.propertie
+!.gradle/gradle.prod.properties
+
+### graphql ###
+schema.graphql
